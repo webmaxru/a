@@ -7,5 +7,8 @@ if (environment.production) {
   enableProdMode();
 }
 
-bootstrap(ClassroomAppComponent, [ APP_SHELL_RUNTIME_PROVIDERS ]);
+bootstrap(ClassroomAppComponent, [
+  APP_SHELL_RUNTIME_PROVIDERS
+]);
+
 
